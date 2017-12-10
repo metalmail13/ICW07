@@ -8,26 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		C32500D11FDC3EB4001509E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500D01FDC3EB4001509E4 /* AppDelegate.m */; };
-		C32500D41FDC3EB5001509E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500D31FDC3EB5001509E4 /* ViewController.m */; };
 		C32500D71FDC3EB5001509E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32500D51FDC3EB5001509E4 /* Main.storyboard */; };
 		C32500DA1FDC3EB5001509E4 /* CarsCoreDataAD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C32500D81FDC3EB5001509E4 /* CarsCoreDataAD.xcdatamodeld */; };
 		C32500DC1FDC3EB5001509E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32500DB1FDC3EB5001509E4 /* Assets.xcassets */; };
 		C32500DF1FDC3EB5001509E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32500DD1FDC3EB5001509E4 /* LaunchScreen.storyboard */; };
 		C32500E21FDC3EB5001509E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500E11FDC3EB5001509E4 /* main.m */; };
+		C32500ED1FDC40BE001509E4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32500EC1FDC40B2001509E4 /* CoreData.framework */; };
+		C32500F01FDC4296001509E4 /* AddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500EF1FDC4296001509E4 /* AddCarViewController.m */; };
+		C32500F31FDC4B8E001509E4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500F21FDC4B8E001509E4 /* DetailViewController.m */; };
+		C32500F61FDC6179001509E4 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500F51FDC6179001509E4 /* Car.m */; };
+		C32500F91FDC653F001509E4 /* EditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500F81FDC653F001509E4 /* EditingViewController.m */; };
+		C32500FC1FDCAD4A001509E4 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32500FB1FDCAD4A001509E4 /* RootTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C32500CC1FDC3EB4001509E4 /* CarsCoreDataAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarsCoreDataAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32500CF1FDC3EB4001509E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C32500D01FDC3EB4001509E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C32500D21FDC3EB4001509E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C32500D31FDC3EB5001509E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C32500D61FDC3EB5001509E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32500D91FDC3EB5001509E4 /* CarsCoreDataAD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarsCoreDataAD.xcdatamodel; sourceTree = "<group>"; };
 		C32500DB1FDC3EB5001509E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32500DE1FDC3EB5001509E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32500E01FDC3EB5001509E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32500E11FDC3EB5001509E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C32500EC1FDC40B2001509E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C32500EE1FDC4296001509E4 /* AddCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCarViewController.h; sourceTree = "<group>"; };
+		C32500EF1FDC4296001509E4 /* AddCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCarViewController.m; sourceTree = "<group>"; };
+		C32500F11FDC4B8E001509E4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C32500F21FDC4B8E001509E4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C32500F41FDC6179001509E4 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		C32500F51FDC6179001509E4 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		C32500F71FDC653F001509E4 /* EditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditingViewController.h; sourceTree = "<group>"; };
+		C32500F81FDC653F001509E4 /* EditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditingViewController.m; sourceTree = "<group>"; };
+		C32500FA1FDCAD4A001509E4 /* RootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		C32500FB1FDCAD4A001509E4 /* RootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32500ED1FDC40BE001509E4 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +61,7 @@
 			children = (
 				C32500CE1FDC3EB4001509E4 /* CarsCoreDataAD */,
 				C32500CD1FDC3EB4001509E4 /* Products */,
+				C32500EB1FDC40B2001509E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +78,16 @@
 			children = (
 				C32500CF1FDC3EB4001509E4 /* AppDelegate.h */,
 				C32500D01FDC3EB4001509E4 /* AppDelegate.m */,
-				C32500D21FDC3EB4001509E4 /* ViewController.h */,
-				C32500D31FDC3EB5001509E4 /* ViewController.m */,
+				C32500F11FDC4B8E001509E4 /* DetailViewController.h */,
+				C32500F21FDC4B8E001509E4 /* DetailViewController.m */,
+				C32500FA1FDCAD4A001509E4 /* RootTableViewController.h */,
+				C32500FB1FDCAD4A001509E4 /* RootTableViewController.m */,
+				C32500EE1FDC4296001509E4 /* AddCarViewController.h */,
+				C32500EF1FDC4296001509E4 /* AddCarViewController.m */,
+				C32500F71FDC653F001509E4 /* EditingViewController.h */,
+				C32500F81FDC653F001509E4 /* EditingViewController.m */,
+				C32500F41FDC6179001509E4 /* Car.h */,
+				C32500F51FDC6179001509E4 /* Car.m */,
 				C32500D51FDC3EB5001509E4 /* Main.storyboard */,
 				C32500DB1FDC3EB5001509E4 /* Assets.xcassets */,
 				C32500DD1FDC3EB5001509E4 /* LaunchScreen.storyboard */,
@@ -72,6 +96,14 @@
 				C32500D81FDC3EB5001509E4 /* CarsCoreDataAD.xcdatamodeld */,
 			);
 			path = CarsCoreDataAD;
+			sourceTree = "<group>";
+		};
+		C32500EB1FDC40B2001509E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C32500EC1FDC40B2001509E4 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32500D41FDC3EB5001509E4 /* ViewController.m in Sources */,
 				C32500DA1FDC3EB5001509E4 /* CarsCoreDataAD.xcdatamodeld in Sources */,
 				C32500E21FDC3EB5001509E4 /* main.m in Sources */,
 				C32500D11FDC3EB4001509E4 /* AppDelegate.m in Sources */,
+				C32500F01FDC4296001509E4 /* AddCarViewController.m in Sources */,
+				C32500F61FDC6179001509E4 /* Car.m in Sources */,
+				C32500F91FDC653F001509E4 /* EditingViewController.m in Sources */,
+				C32500F31FDC4B8E001509E4 /* DetailViewController.m in Sources */,
+				C32500FC1FDCAD4A001509E4 /* RootTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
