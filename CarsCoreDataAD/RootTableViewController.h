@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "AddCarViewController.h"
 
+//@protocol NSFetchedResultsControllerDelegate;
+
 //@interface RootTableViewController : UITableViewController
 @interface RootTableViewController : UITableViewController
 <NSFetchedResultsControllerDelegate, AddCarControllerDelegate>
